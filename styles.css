@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+
+table {
+	border-collapse: collapse;
+    width: 100%;
+	margin-top: 20px;
+}
+
+th, td {
+	border: 1px solid orange;
+    padding: 3px 5px;
+	text-align: center;
+}
+
+th {
+	background-color: #888;
+    color: #fff;
+}
+
+td.subTotalCell {
+	text-align: right;
+}
+
+tr.subTotalRow {
+	font-weight: bold;
+}
+
+td.bottomBorder {
+	border-bottom: 2px solid orange;
+}
+
+td.rightBorder {
+	border-right: 2px solid orange;
+}
+
