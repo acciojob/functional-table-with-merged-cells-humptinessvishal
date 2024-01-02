@@ -4,11 +4,13 @@ table {
 	border-collapse: collapse;
     width: 100%;
 	margin-top: 20px;
-	border: 1px solid rgb(255, 165, 0);
+	border: 0px solid rgb(255, 165, 0);
+	border-width: 0px 0px 1px 1px;
 }
 
 th, td {
-	border: 1px solid rgb(255, 165, 0);
+	border: 0px solid rgb(255, 165, 0);
+	border-width: 1px 1px 0px 0px;
     padding: 3px 5px;
 	text-align: center;
 }
